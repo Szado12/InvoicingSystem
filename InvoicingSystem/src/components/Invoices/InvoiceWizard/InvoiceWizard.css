@@ -1,0 +1,72 @@
+.InvoiceWizardProductTable{
+    font-size: 1.2em;
+    text-align: right;
+    padding:5px,3px,3px,5px;
+    margin-bottom: 10px;
+    border-bottom: darkgray double 2px;
+}
+.InvoiceWizardProductTable div{
+    padding-left: 10px;
+}
+.InvoiceWizardProductRows{
+    text-align: right;
+}
+.InvoicePositionCardRowTypeahead{
+    text-align: left;
+}
+.InvoicePositionCardRowTypeahead input{
+    text-align: left;
+}
+.InvoicePositionCardRow input{
+    text-align: right;
+    font-size: 1.1em;
+    padding-right: 0;
+    font-size: 1em;
+}
+.InvoicePositionCardTitle{
+    padding-bottom: 10px;
+    border-bottom: darkgray double 1px;
+
+}
+.InvoicePositionCardRow{
+    border-bottom: darkgray double 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+.InvoicePositionCardRowTypeahead{
+    text-align: left;
+}
+.InvoicePositionCardRowTypeahead input{
+    text-align: left;
+}
+.InvoiceRowWizardButtonsWithPadding{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+.InvoiceRowWizardButtons{
+    height: 100%;
+    align-items: center;
+
+}
+.AddRowButton{
+    font-size: 1.3em;
+    border: none;
+    background-color: transparent;
+    color: #00b809;
+}
+.AddRowButton:hover{
+    color: #008f07;
+}
+.RequestTypeEdit{
+    text-align: right;
+    color:orange;
+    font-size: 1.3em;
+}
+.RequestTypeAdd{
+    color:#00b809;
+    text-align: right;
+    font-size: 1.3em;
+}
+

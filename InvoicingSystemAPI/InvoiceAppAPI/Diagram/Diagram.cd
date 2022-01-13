@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InvoiceAppAPI.Controllers.CompanyDataController" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAACAAAAQAA=</HashCode>
+      <FileName>Controllers\CompanyDataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Controllers.ContractorController" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACACAAAAAEAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ContractorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Controllers.InvoiceController" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEAAABIAgAAIAAAAAAAAAAAAAAIBAAAAAA=</HashCode>
+      <FileName>Controllers\InvoiceController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Controllers.PaymentMethodController" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PaymentMethodController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Controllers.PingController" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Controllers.ProductController" Collapsed="true">
+    <Position X="25.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAACAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ProductController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Controllers.UserController" Collapsed="true">
+    <Position X="27.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAIgAAAAAAAABAABAAABAAgAAAAQiAAAAgA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.CompanyDataService" Collapsed="true">
+    <Position X="19" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Implementation\CompanyDataService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.ContractorService" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACIAAAAAEACAAQAAAAAAAAACAAAIAAEAAAIA=</HashCode>
+      <FileName>Implementation\ContractorService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.DefaultService" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAIAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\DefaultService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.EmployeesToContractorsService" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Implementation\EmployeesToContractorsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.EncryptionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\EncryptionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.FileManagmentService" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAiAAADAACAAAAYAAQAAAABCAQAAAAgAAAABAA=</HashCode>
+      <FileName>Implementation\FileManagmentService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.InvoiceService" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAMAAAEIAAAAQEAAiAAAAAIAEAAAAA=</HashCode>
+      <FileName>Implementation\InvoiceService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.JWTTokenService" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAACEAAAAAAAAAAAAAAAACAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Implementation\JWTTokenService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.PaymentMethodService" Collapsed="true">
+    <Position X="21.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\PaymentMethodService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.ProductService" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABABAAAIAAACIAAAQAgAAAAAAAAAAAQAAAAAAaA=</HashCode>
+      <FileName>Implementation\ProductService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvoiceAppAPI.Implementation.UserService" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAggAAAAAAAAAAAAAEBAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>Implementation\UserService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvoiceAppAPI.MapperProfiles.MapperProfile" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapperProfiles\MapperProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.CompanyData" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAAAIgAAAAAAAAAgAAAgDABAAACAAAAA=</HashCode>
+      <FileName>Models\CompanyData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.Contractor" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQCAAAAAAAAAIgAAAAAAAAIAIAAgDAAAAACAAAAI=</HashCode>
+      <FileName>Models\Contractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.Credential" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAACAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\Credential.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.Employee" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEIAAAAABAAAEAAIAAAAAAAABAAAAAAAACJAEAo=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.EmployeesContractor" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAACIAIAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\EmployeesContractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.Invoice" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YQADAAAAAAEAAAAAEgAAgAAACIAAAAiAAAAAIAACAAA=</HashCode>
+      <FileName>Models\Invoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.InvoiceContext" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAAQAQAAAAAAAAAAQAGgAEAACAAAAAACAAAAY=</HashCode>
+      <FileName>Models\InvoiceContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.InvoiceRow" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACIAAAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAAAQA=</HashCode>
+      <FileName>Models\InvoiceRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.PaymentMethod" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAIAAA=</HashCode>
+      <FileName>Models\PaymentMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.Product" Collapsed="true">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAKAAAAAACgAAAAQAAABAQAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Models.Role" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Utilities.ValueToWords" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAgAACAEAAAAABEAAAAAAAAAABAQAAAAAAgAA=</HashCode>
+      <FileName>Utilities\Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.EmployeesToContractors.ContractorInfo" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\EmployeesToContractors\ContractorInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.EmployeesToContractors.EmployeeInfo" Collapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\EmployeesToContractors\EmployeeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.EmployeesToContractors.EmployeesToContractorModel" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\EmployeesToContractors\EmployeesToContractorModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.InvoiceListViewModel" Collapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\InvoiceModels\InvoiceListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.CompanyDataViewModel" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAAAIgAAAAAAAAAgAAAADABAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\CompanyDataViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.ContractorViewForTypeahead" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAAAIgAAAAAAAAAAAAAADAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ContractorViewForTypeahead.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.InvoiceRowCalculated" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAQIAAAAAAAAAAAAAAAAAAAAgAgAAIAAAA=</HashCode>
+      <FileName>ViewModel\InvoiceRowCalculated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.PaymentMethodViewForTypeahead" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ViewModel\PaymentMethodViewForTypeahead.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.ProductViewForList" Collapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAACgAAAAQAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ProductViewForList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.ProductViewModel" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAACgAAAAQAAABAQAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ProductViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.InvoiceModels.InvoicePreviewModel" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQADAAAAAAEAAAAAAgAAAAAACIAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\InvoiceModels\InvoicePreviewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.InvoiceModels.InvoiceRowViewModel" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\InvoiceModels\InvoiceRowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.InvoiceModels.InvoiceViewModel" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAEAAAAAEgAAAAAAAAAAAAAAAAAAIAACAAA=</HashCode>
+      <FileName>ViewModel\InvoiceModels\InvoiceViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.InvoiceModels.InvoiceViewModelFrontend" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAEAAAAAEgAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ViewModel\InvoiceModels\InvoiceViewModelFrontend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.User.RoleViewModel" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\User\RoleViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.User.UserChangePasswordView" Collapsed="true">
+    <Position X="25.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\User\UserChangePasswordView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.User.UserData" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAABCAAg=</HashCode>
+      <FileName>ViewModel\User\UserData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.User.UserLoginViewModel" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>ViewModel\User\UserLoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.User.UserModel" Collapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAABAAAg=</HashCode>
+      <FileName>ViewModel\User\UserModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.ViewModel.User.UserRegisterViewModel" Collapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAEAAAAAAAAAAABAACAAAAAABAAAg=</HashCode>
+      <FileName>ViewModel\User\UserRegisterViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Program" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvoiceAppAPI.Startup" Collapsed="true">
+    <Position X="23.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAgAAACAAAQAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="InvoiceAppAPI.Interfaces.ICompanyDataService" Collapsed="true">
+    <Position X="23.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICompanyDataService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InvoiceAppAPI.Interfaces.IContractorService" Collapsed="true">
+    <Position X="25.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IContractorService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InvoiceAppAPI.Interfaces.IEmployeesToContractorsService" Collapsed="true">
+    <Position X="27.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Interfaces\IEmployeesToContractorsService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InvoiceAppAPI.Interfaces.IEncryptionService" Collapsed="true">
+    <Position X="29" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEncryptionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InvoiceAppAPI.Interfaces.IFileManagmentService" Collapsed="true">
+    <Position X="30.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFileManagmentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InvoiceAppAPI.Interfaces.IInvoiceService" Collapsed="true">
+    <Position X="32.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAIAAAAAAAAgAAAAAIAAAAAAA=</HashCode>
+      <FileName>Interfaces\IInvoiceService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InvoiceAppAPI.Interfaces.IJWTTokenService" Collapsed="true">
+    <Position X="34.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACEAAAAAAAAAAAAAAAACAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Interfaces\IJWTTokenService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InvoiceAppAPI.Interfaces.IPaymentMethodService" Collapsed="true">
+    <Position X="23.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPaymentMethodService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InvoiceAppAPI.Interfaces.IProductService" Collapsed="true">
+    <Position X="25.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAACIAAAQAgAAAAAAAAAAAQAAAAAASA=</HashCode>
+      <FileName>Interfaces\IProductService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InvoiceAppAPI.Interfaces.IUserService" Collapsed="true">
+    <Position X="27.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAggAAAAAAAAAAAAAABAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>Interfaces\IUserService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

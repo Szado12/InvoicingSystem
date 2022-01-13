@@ -1,0 +1,17 @@
+.UserList{
+    font-size: 1.2em;
+}
+
+.AddUserButton{
+    border: none;
+    background-color: transparent;
+    color: #00b809;
+}
+
+.card{
+    border-radius: 0%;
+}
+.card-header:hover{
+    background-color: #1890ff;
+    border-radius: 0%;
+}

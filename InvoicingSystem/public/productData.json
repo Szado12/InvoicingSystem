@@ -1,0 +1,27 @@
+
+[
+  {
+    "name": "nadkole",
+    "measurementUnits": "szt",
+    "catalogNumber": "NAD214656",
+    "priceNetto": "450.00",
+    "vat": "23",
+    "descriptiom": "fyasg hasgd  ashdg ashjas djk dfghhdf gnkln kjdfgk"
+  },
+  {
+    "name": "maska",
+    "measurementUnits": "szt",
+    "catalogNumber": "MAS214656",
+    "priceNetto": "750.00",
+    "vat": "23",
+    "descriptiom": "dfg dfg  gdf ggdfgdd  ashdg ashjas djk dfghhdf gnkln kjdfgk"
+  },
+  {
+    "name": "podkole",
+    "measurementUnits": "szt",
+    "catalogNumber": "POD214656",
+    "priceNetto": "550.00",
+    "vat": "23",
+    "descriptiom": "fwaedff fghfg hfgh fghjas djk dfghhdf gnkln kjdfgk"
+  }
+]

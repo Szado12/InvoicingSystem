@@ -1,0 +1,9 @@
+.ProductList{
+    font-size: 1.2em;
+}
+
+.AddProductButton{
+    border: none;
+    background-color: transparent;
+    color: #00b809;
+}
