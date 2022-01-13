@@ -40,7 +40,7 @@ Frontend:
 ### Invoice Preview Mode
 ![alt text](img/InvoicePreview.png)
 ### Exported Invoice Example
-![alt text](img/PDFINvoicee.png)
+![alt text](img/PDFINvoicee.PNG)
 ### Product and Service List
 ![alt text](img/productList.png)
 ### Creating Product or Service form
